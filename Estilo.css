@@ -1,0 +1,67 @@
+#logo
+{
+    grid-area: logo;
+    text-align: center;
+}
+
+#barra
+{
+    grid-area: barra;
+
+}
+
+#titulo
+{
+    grid-area: titulo;
+    text-align: center;
+}
+
+#imagen
+{
+    grid-area: imagen; 
+    text-align: center;
+}
+
+#texto
+{
+    grid-area: texto;
+}
+
+#audio
+{
+    grid-area: audio;
+    text-align: center;
+}
+
+#reportero
+{
+    grid-area: reportero;
+}
+
+#comentarios
+{
+    grid-area: comentarios;
+}
+
+#pie
+{
+    grid-area: pie;
+}
+
+
+#contenedor
+{
+    display: grid;
+
+    height: 600px;
+
+    grid-template-areas:
+        "logo barra barra barra barra"
+        "titulo titulo titulo titulo titulo"
+        "imagen imagen imagen imagen imagen"
+        "texto texto texto texto texto"
+        "audio audio audio audio audio"
+        "reportero . . . ."
+        "comentarios comentarios comentarios comentarios comentarios"
+        "pie pie pie pie pie"
+}
